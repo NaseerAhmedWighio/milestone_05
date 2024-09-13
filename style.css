@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(45deg,rgb(4, 29, 253), rgb(244, 64, 88));
+    /* background-color: #c1ee91; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section .section {
+    font-size: large;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(45deg,rgb(185, 44, 63), rgb(0, 21, 209));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #785757;
+    border-radius: 11px;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg,rgb(238, 66, 89), rgb(36, 57, 247));
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(45deg, rgb(36, 57, 247),rgb(238, 66, 89))
+}
+
+#resumeOutput {
+    margin-top: 20px;
+    color: white;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
